@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.zouhmi.momentum.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "VideoOptionsScreenMixin",
+    "EntityRendererMixin",
+    "WorldRendererMixin",
+    "BlockEntityRendererMixin",
+    "ParticleManagerMixin",
+    "LivingEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,7 @@
+build/
+run/
+.gradle/
+gradle-dist/
+gradle-9.8.1/
+gd.zip
+**/.DS_Store
