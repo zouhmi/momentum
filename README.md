@@ -50,7 +50,7 @@ Caps FPS (default 30, range 5 to 260) and remembers your previous cap so togglin
 Low-End, Low-Latency, and Balanced presets map to settings that are actually wired. `ProfileManager.apply` commits, `revert` restores a captured baseline.
 
 ### Diagnostics
-Frame time distribution, tick duration, and JVM heap info collected locally at startup. Samples bounded, default 300 frames.
+Frame time distribution, tick duration, JVM heap info, and GC pause totals (from platform MXBeans) collected locally at startup. Samples bounded, default 300 frames. An optional HUD overlay (off by default, enabled with `diagnostics.hud`) renders FPS, frame p95/p99, 1% lows, tick duration, heap, and GC pause count in game. Nothing leaves the machine.
 
 ## Install
 

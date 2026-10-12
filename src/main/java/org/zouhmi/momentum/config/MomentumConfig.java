@@ -73,6 +73,7 @@ public class MomentumConfig {
 
     public static class DiagnosticsSection {
         public boolean enabled = true;
+        public boolean hud = false;
         public int frameSampleCapacity = 300;
         public int startupLogLevelCount = 10;
 
