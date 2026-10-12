@@ -21,6 +21,13 @@ public class MomentumClient implements ClientModInitializer {
         return metrics;
     }
 
+    /**
+     * Test hook: injects a config without loading from disk.
+     */
+    public static void setConfig(MomentumConfig custom) {
+        config = custom;
+    }
+
     @Override
     public void onInitializeClient() {
         config = MomentumConfig.load();
